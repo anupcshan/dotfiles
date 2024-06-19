@@ -58,6 +58,7 @@
           "alacritty"
           "gather"
           "google-chrome"
+          "google-drive"
           "jordanbaird-ice"
           "jellyfin-media-player"
           "orbstack"
