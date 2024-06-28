@@ -20,6 +20,7 @@
         golangci-lint
         google-cloud-sdk
         graphviz
+        hexedit
         hyperfine
         home-manager
         immich-go
