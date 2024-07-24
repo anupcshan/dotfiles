@@ -37,11 +37,6 @@
         unixtools.watch
       ];
 
-      fonts.fontDir.enable = true;
-      fonts.fonts = with pkgs; [
-        nerdfonts
-      ];
-
       homebrew = {
         enable = true;
         onActivation = {
