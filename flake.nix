@@ -29,6 +29,7 @@
         mpv
         ncdu
         nodejs_20
+        ollama
         pprof
         pv
         ripgrep
@@ -46,18 +47,21 @@
         };
 
         brews = [
+          "xz"
         ];
 
         casks = [
           "1password"
           "1password-cli"
           "alacritty"
+          "balenaetcher"
           "gather"
           "google-chrome"
           "google-drive"
           "jordanbaird-ice"
           "jellyfin-media-player"
           "orbstack"
+          "raspberry-pi-imager"
           "raycast"
           "slack"
           "spotify"
