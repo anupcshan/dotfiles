@@ -66,6 +66,7 @@
           "slack"
           "spotify"
           "stats"
+          "sweet-home3d"
           "tailscale"
           "whatsapp"
           "zoom"
