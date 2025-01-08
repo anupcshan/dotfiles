@@ -170,6 +170,9 @@
             pkgs.vscode-extensions.vscodevim.vim
             pkgs.vscode-extensions.ms-vscode-remote.remote-containers
           ];
+          userSettings = {
+            "continue.telemetryEnabled" = false;
+          };
         };
       };
 
