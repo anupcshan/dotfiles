@@ -128,7 +128,6 @@
           enable = true;
           defaultEditor = true;
           extraPackages = with pkgs; [
-            buf-language-server
             gopls
             gotools # goimports, ...
             lua-language-server
