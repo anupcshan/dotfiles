@@ -55,6 +55,7 @@
           "1password-cli"
           "alacritty"
           "balenaetcher"
+          "cursor"
           "gather"
           "google-chrome"
           "google-drive"
