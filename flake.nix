@@ -171,6 +171,7 @@
           ];
           userSettings = {
             "continue.telemetryEnabled" = false;
+            "editor.lineNumbers" = "relative";
           };
         };
       };
