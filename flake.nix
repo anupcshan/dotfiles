@@ -56,7 +56,6 @@
           "alacritty"
           "balenaetcher"
           "cursor"
-          "gather"
           "google-chrome"
           "google-drive"
           "jordanbaird-ice"
