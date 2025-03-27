@@ -162,15 +162,20 @@
 
         programs.vscode = {
           enable = true;
-          enableExtensionUpdateCheck = false;
-          enableUpdateCheck = false;
-          extensions = [
-            pkgs.vscode-extensions.vscodevim.vim
-            pkgs.vscode-extensions.ms-vscode-remote.remote-containers
-          ];
-          userSettings = {
-            "continue.telemetryEnabled" = false;
-            "editor.lineNumbers" = "relative";
+          profiles.default = {
+            enableExtensionUpdateCheck = false;
+            enableUpdateCheck = false;
+            extensions = [
+              pkgs.vscode-extensions.github.copilot
+              pkgs.vscode-extensions.github.copilot-chat
+              pkgs.vscode-extensions.ms-vscode-remote.remote-ssh
+              pkgs.vscode-extensions.ms-vscode-remote.remote-ssh-edit
+              pkgs.vscode-extensions.vscodevim.vim
+            ];
+            userSettings = {
+              "continue.telemetryEnabled" = false;
+              "editor.lineNumbers" = "relative";
+            };
           };
         };
       };
