@@ -36,6 +36,7 @@
         watchexec
         wget
         unixtools.watch
+        zstd
       ];
 
       homebrew = {
