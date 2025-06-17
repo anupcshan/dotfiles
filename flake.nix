@@ -68,6 +68,7 @@
           "stats"
           "sweet-home3d"
           "tailscale"
+          "telegram"
           "whatsapp"
           "zoom"
           "nikitabobko/tap/aerospace"
