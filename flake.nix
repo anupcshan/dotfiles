@@ -96,6 +96,8 @@
       # $ darwin-rebuild changelog
       system.stateVersion = 4;
 
+      system.primaryUser = "anupc";
+
       networking.hostName = "watchtower";
 
       # The platform the configuration will be used on.
