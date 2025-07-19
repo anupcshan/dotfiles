@@ -12,6 +12,7 @@
     configuration = { pkgs, ... }: {
       environment.systemPackages = with pkgs; [
         android-studio-tools
+        claude-code
         devcontainer
         docker-credential-helpers
         git-credential-manager
