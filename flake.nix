@@ -11,6 +11,7 @@
   let
     configuration = { pkgs, ... }: {
       environment.systemPackages = with pkgs; [
+        android-studio-tools
         devcontainer
         docker-credential-helpers
         git-credential-manager
@@ -37,6 +38,7 @@
         wget
         unixtools.watch
         zstd
+        zulu21
       ];
 
       homebrew = {
