@@ -27,6 +27,7 @@
         home-manager
         immich-go
         jq
+        llama-cpp
         mosh
         mpv
         ncdu
