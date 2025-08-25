@@ -33,6 +33,7 @@
         ncdu
         nodejs_20
         ollama
+        poppler-utils # For pdftotext
         pprof
         pv
         ripgrep
