@@ -158,7 +158,6 @@
             enable = true;
             theme = "aussiegeek";
             plugins = [
-              "docker"
               "git"
               "golang"
               "ssh-agent"
