@@ -65,7 +65,6 @@
           "jordanbaird-ice"
           "jellyfin-media-player"
           "luniistore"
-          "orbstack"
           "raspberry-pi-imager"
           "raycast"
           "slack"
