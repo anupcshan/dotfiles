@@ -35,6 +35,7 @@
         ollama
         poppler-utils # For pdftotext
         pprof
+        protobuf
         pv
         ripgrep
         watchexec
