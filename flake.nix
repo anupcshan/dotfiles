@@ -72,7 +72,7 @@
           "spotify"
           "stats"
           "sweet-home3d"
-          "tailscale"
+          "tailscale-app"
           "telegram"
           "whatsapp"
           "zoom"
