@@ -62,8 +62,6 @@
           "balenaetcher"
           "cursor"
           "google-chrome"
-          "google-drive"
-          "jordanbaird-ice"
           "jellyfin-media-player"
           "luniistore"
           "raspberry-pi-imager"
