@@ -41,6 +41,7 @@
         watchexec
         wget
         unixtools.watch
+        yubikey-manager
         zstd
         zulu21
       ];
