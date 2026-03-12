@@ -11,6 +11,7 @@
   let
     configuration = { pkgs, ... }: {
       environment.systemPackages = with pkgs; [
+        aerospace
         android-studio-tools
         claude-code
         devcontainer
@@ -75,11 +76,6 @@
           "telegram"
           "whatsapp"
           "zoom"
-          "nikitabobko/tap/aerospace"
-        ];
-
-        taps = [
-          "nikitabobko/tap"
         ];
       };
 
