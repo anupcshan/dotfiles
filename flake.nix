@@ -32,7 +32,6 @@
         mosh
         mpv
         ncdu
-        nodejs_20
         ollama
         poppler-utils # For pdftotext
         pprof
@@ -109,6 +108,7 @@
       home-manager.useUserPackages = true;
       home-manager.users.anupc = { pkgs, config, ... }: {
         home.stateVersion = "23.05";
+        home.enableNixpkgsReleaseCheck = false;
         programs.tmux = {
           enable = true;
           newSession = true;
@@ -128,12 +128,12 @@
         programs.neovim = {
           enable = true;
           defaultEditor = true;
+          sideloadInitLua = true;
           extraPackages = with pkgs; [
             gopls
             gotools # goimports, ...
             lua-language-server
             nil
-            nodePackages.typescript-language-server
             python312Packages.python-lsp-server
             rust-analyzer
             shellcheck
